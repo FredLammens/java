@@ -19,7 +19,10 @@ public class hoofdstuk4_oef4 {
             if (getal != 0 && getal > grootste)
                 grootste = getal;
         }
+        if(kleinste != Integer.MAX_VALUE && grootste != Integer.MIN_VALUE)
         System.out.printf("Het grootste getal is: %d en het kleinste getal is: %d%n",grootste,kleinste);
+        else
+            System.out.println("Geen getallen ingegeven.");
     }
     
 }
